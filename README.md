@@ -29,10 +29,11 @@ First one is a stacked bar chart and it shows the changes for the total number o
 The following tasks and questions will drive the visualization and interaction decisions for this project:
 
  * How does the number of petition vary over time? 
-  ** It could be answered by a bar chart. x would be year, y would be the number of petition.
+     * It could be answered by a bar chart. x would be year, y would be the number of petition.
  * Is there any correlation between wages and approved rate?
+      * It could be answered by a stacked bar chart. x would be year, y would be average wages of each status.
  * Are there interesting spatial patterns in case status?
-
+      * It could be answered by a map with all the points representing different cases on it.
 ## Sketches
 ### Part 1
 ![image](https://user-images.githubusercontent.com/44931709/65524721-4424ef80-debc-11e9-9263-948eb1c60a3c.png)
