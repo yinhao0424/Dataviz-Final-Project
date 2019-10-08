@@ -45,13 +45,13 @@ The following tasks and questions will drive the visualization and interaction d
  * This sketch shows the extended ideas. Linked the points in the map with a bar chart to show the number of different status in detail by adding zoom/cut/brush functions. Furthermore, I'd like to add a menu bar serving as a filter to choose different years. 
  
  ## Schedule of Deliverables
-  * week7:  linked map with bar chart
-  * week8:  highlight with zoom and brush
-  * week9:  create the remaining relationship based graphs
+  * week7:  create the remaining relationship based graphs
+  * week8:  linked map with bar chart
+  * week9:  highlight with zoom and brush
   * week10:  Organized all the charts and finish the tasks.
 
 ## Open Questions
-Can menu serve as a filter?
+
 
 
 
