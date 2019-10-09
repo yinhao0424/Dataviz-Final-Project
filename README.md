@@ -27,7 +27,7 @@ I’ve created a proof of concept visualization of this data.
 [![image](https://user-images.githubusercontent.com/44931709/66445343-784bf480-ea14-11e9-9351-c867695cea39.png)](https://beta.vizhub.com/yinhao0424/b3520ce6b373400fa819398654be5b9c)
 
  *  Third one shows the pattern of petition in a map.
-[![image](https://user-images.githubusercontent.com/44931709/66445807-0ecce580-ea16-11e9-933f-3cd10c193067.png)](https://beta.vizhub.com/yinhao0424/6cfd339f342b4979ae20514de69fa308?edit=files&file=README.md&mode=full)
+[![image](https://user-images.githubusercontent.com/44931709/66445807-0ecce580-ea16-11e9-933f-3cd10c193067.png)](https://beta.vizhub.com/yinhao0424/5aafc3f42b424fddb2573a7fc377a855)
 ## Questions & Tasks
 
 The following tasks and questions will drive the visualization and interaction decisions for this project:
