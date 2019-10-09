@@ -23,6 +23,9 @@ First one is a stacked bar chart and it shows the changes for the total number o
 
 [![image](https://user-images.githubusercontent.com/44931709/65516192-8f380600-deae-11e9-934e-d01ca1466616.png)](https://beta.vizhub.com/yinhao0424/75b00344e86f4c8b9253c9dad751387a)
 
+Second one shows the number of different case status for each year with D3&React.
+[![image](https://user-images.githubusercontent.com/44931709/66445343-784bf480-ea14-11e9-9351-c867695cea39.png)](https://beta.vizhub.com/yinhao0424/b3520ce6b373400fa819398654be5b9c)
+
 
 ## Questions & Tasks
 
