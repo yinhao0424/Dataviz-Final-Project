@@ -2,9 +2,9 @@
 
 ## Data
 
-The [data](https://gist.github.com/yinhao0424/9f1730ca91ab6a472fc212761267fa39) I propose to visualize for my project is immigration programs from The Office of Foreign Labor Certification (OFLC) including the H1-B visa from 2011 - 2016.
+The [data](https://gist.github.com/yinhao0424/9f1730ca91ab6a472fc212761267fa39) I visualized for my project is immigration programs from The Office of Foreign Labor Certification (OFLC) including the H1-B visa from 2011 - 2016.
 
- *  columns: 
+###### Columns: 
  *  CASE_STATUS
  *  EMPLOYER_NAME
  *  SOC_NAME
@@ -16,28 +16,40 @@ The [data](https://gist.github.com/yinhao0424/9f1730ca91ab6a472fc212761267fa39) 
  *  lon
  *  lat
 
-## Prototypes
+## Visualizations
 
-I’ve created a proof of concept visualization of this data. 
- *  First one is a stacked bar chart and it shows the changes for the total number of petition, the different case status, the number of part time and full time candidates petitions along with years.
+I’ve created visualization of this data. 
+- React & D3
+ 1. The first one is a stacked bar chart. It shows the changes for the total number of petition, the different case status. When we put mouse on each bar, it will show us the number of petition of that status in that year. Also, when we hover on a particular color legend. The responding bars will be highlighted and others will fade.  
 
-[![image](https://user-images.githubusercontent.com/44931709/65516192-8f380600-deae-11e9-934e-d01ca1466616.png)](https://beta.vizhub.com/yinhao0424/75b00344e86f4c8b9253c9dad751387a)
-
- *  Second one shows the number of different case status for each year with D3&React.
+ 2. The second one is a bar chart showing the top 20 states applying for h1b visa. 
+ 
+ 3. The third one is an interactive map. When we hover on the color legend, the responding points will be highlighted and others will fade. The dropdown will filter data by year. If we choose a particular year, this map will only show the points in that year. In the meantime, we can still hover on color legent to check out the distribution of different status.
+ 
+ 4. The fourth one shows the number of different case status for each year with D3&React.
 [![image](https://user-images.githubusercontent.com/44931709/66445343-784bf480-ea14-11e9-9351-c867695cea39.png)](https://beta.vizhub.com/yinhao0424/b3520ce6b373400fa819398654be5b9c)
 
- *  Third one shows the pattern of petition in a map.
+- Vega lite API
+ 1. The first one shows the changes for the total number of petition, the different case status and different job type. 
+ [![image](https://user-images.githubusercontent.com/44931709/65516192-8f380600-deae-11e9-934e-d01ca1466616.png)](https://beta.vizhub.com/yinhao0424/75b00344e86f4c8b9253c9dad751387a)
+
+ 2. The second one is stacked bar chart showing the amount of petitions in different states as well as its case status.
+ 
+ 
+ 3. The third one shows the pattern of petition in a map.
 [![image](https://user-images.githubusercontent.com/44931709/66445807-0ecce580-ea16-11e9-933f-3cd10c193067.png)](https://beta.vizhub.com/yinhao0424/5aafc3f42b424fddb2573a7fc377a855)
+
+
+
+
 ## Questions & Tasks
 
-The following tasks and questions will drive the visualization and interaction decisions for this project:
+The following tasks and questions drive the visualization and interaction decisions for this project:
 
  * How does the number of petition vary over time? 
-     * It could be answered by a bar chart. x would be year, y would be the number of petition.
- * Is there any correlation between wages and approved rate?
-      * It could be answered by a stacked bar chart. x would be year, y would be average wages of each status.
+ * Is there any correlation between petition status and state?
  * Are there interesting spatial patterns in case status?
-      * It could be answered by a map with all the points representing different cases on it.
+ 
 ## Sketches
 ### Part 1
 ![image](https://user-images.githubusercontent.com/44931709/65524721-4424ef80-debc-11e9-9263-948eb1c60a3c.png)
@@ -48,14 +60,8 @@ The following tasks and questions will drive the visualization and interaction d
  ![image](https://user-images.githubusercontent.com/44931709/66012228-568ec280-e494-11e9-9e99-e99645fe5843.png)
  * This sketch shows the extended ideas. Linked the points in the map with a bar chart to show the number of different status in detail by adding zoom/cut/brush functions. Furthermore, I'd like to add a menu bar serving as a filter to choose different years. 
  
- ## Schedule of Deliverables
-  * week7:  create the remaining relationship based graphs
-  * week8:  linked map with bar chart
-  * week9:  highlight with zoom and brush
-  * week10:  Organized all the charts and finish the tasks.
-
-## Open Questions
-
+ ## Futurn work
+ * linked map with a bar chart to show the number of different status in detail by adding zoom/cut/brush functions.
 
 
 
