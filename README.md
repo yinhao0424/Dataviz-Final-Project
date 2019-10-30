@@ -2,7 +2,7 @@
 
 ## Data
 
-The [data](https://gist.github.com/yinhao0424/9f1730ca91ab6a472fc212761267fa39) I visualized for my project is immigration programs from The Office of Foreign Labor Certification (OFLC) including the H1-B visa from 2011 - 2016.
+The data I visualized for my project is immigration programs from T[he Office of Foreign Labor Certification (OFLC)](https://gist.github.com/yinhao0424/9f1730ca91ab6a472fc212761267fa39) including the H1-B visa from 2011 - 2016.
 
 ###### Columns: 
  *  CASE_STATUS
